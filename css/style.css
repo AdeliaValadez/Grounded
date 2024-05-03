@@ -190,6 +190,7 @@ h5 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 24px!important;
+    text-wrap: nowrap;
 }
 
 .buttonPrimary {
@@ -214,6 +215,7 @@ h5 {
 .aboutcontent {
     padding-left: 30px; /* Add some space between the image and text */
     font-size: 24px!important;
+    width: 50%!important;
 }
 
 
@@ -383,7 +385,31 @@ footer {
 
 
 
-  /* Mobile devices (portrait and landscape) */
+  /* Feature section */
+  .containerFeature .col-md-4 {
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    margin-right: 20px;
+  }
+  
+  .containerFeature .col-md-4:last-child {
+    margin-right: 0;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* Navbar */
+    .navbar-nav {
+      justify-content: flex-end;
+    }
+    
+    /* Hero section */
+    .biocontent {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+}
+
+/* Mobile devices (portrait and landscape) */
 @media only screen and (max-width: 767px) {
     /* Navbar */
     .navbar-nav {
@@ -393,7 +419,7 @@ footer {
     
     /* Hero section */
     .herospace {
-      padding-top: 200px;
+      padding-top: 50px;
       padding-bottom: 50px;
     }
     
@@ -430,40 +456,5 @@ footer {
     
     .button-container2 {
       text-align: center;
-    }
-  }
-  
-  /* Tablets and larger */
-  @media only screen and (min-width: 768px) {
-    /* Navbar */
-    .navbar-nav {
-      justify-content: flex-end;
-    }
-    
-    /* Hero section */
-    .biocontent {
-      margin-top: 50px;
-      margin-bottom: 50px;
-    }
-    
-    /* About section */
-    .about-section {
-      flex-direction: row;
-    }
-    
-    .image-container {
-      margin-bottom: 0;
-      margin-right: 20px;
-    }
-    
-    /* Feature section */
-    .containerFeature .col-md-4 {
-      flex: 0 0 calc(33.333% - 20px);
-      max-width: calc(33.333% - 20px);
-      margin-right: 20px;
-    }
-    
-    .containerFeature .col-md-4:last-child {
-      margin-right: 0;
     }
   }
