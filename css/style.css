@@ -71,7 +71,7 @@
     font-family: "poppins", sans-serif;
     font-size: 48px;
     font-style: bold;
-    color: #4d4d4d;
+    color: black;
     font-weight: bold;
     padding-right: 20px;
   }
@@ -79,14 +79,14 @@
   .divider-line {
     display: flex;
     flex: 1;
-    border-bottom: 2px solid #4d4d4d;
+    border-bottom: 2px solid black;
     margin-top: 6px;
   }
 
   .divider-line-footer {
     display: flex;
     flex: 1;
-    border-bottom: 2px solid #4d4d4d;
+    border-bottom: 2px solid black;
     margin-bottom: 20px;
   }
 
@@ -353,7 +353,7 @@ footer {
     font-family: "Poppins", sans-serif;
     font-weight: 600 !important;
     font-style: normal;
-    color: #4d4d4d !important;
+    color: black !important;
     margin: 90px;
     background-color: white!important;
   }
