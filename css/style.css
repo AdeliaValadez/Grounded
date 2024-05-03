@@ -94,6 +94,21 @@
 
 
   /****HEROSPACE****/
+  .containerHero {
+    position: relative;
+    justify-content: center;
+}
+
+.watchImg {
+    position: absolute;
+    bottom: 25%;
+    right: 25;
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+    max-height: 300px!important;
+    width: auto;
+}
+
 .herospace {
     padding-top: 100px;
     width: 100%;
