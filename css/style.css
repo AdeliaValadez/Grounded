@@ -1,0 +1,382 @@
+/* Navigation */
+.navbar-nav {
+    flex-direction: row;
+
+}
+  
+.navbar-brand {
+    width: auto; 
+}
+  
+.menu {
+    background-color: white;
+    position: relative;
+}
+
+.navbar {
+    margin-top: 20px!important;
+    padding: 0px!important;
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+  
+.navbar-nav .nav-link {
+    padding: 15px 20px; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 16px;
+    font-family: "poppins",sans-serif!important;
+    color: black;
+}
+  
+.navbar-nav .nav-link:hover {
+    color:  #528A2F; 
+    border-radius: 16px;
+}
+  
+.navbar-brand img {
+    max-height: 250px;
+    max-width: 100%;
+    margin-left: 40px;
+}
+  
+.nav-item {
+    font-family: "poppins";
+    padding-right: 40px;
+    font-size: 24px;
+    background: white;
+    text-wrap: nowrap;
+}
+  
+.container-fluid {
+    background-color: white;
+}
+
+.logoContainer,
+.navContainer {
+    margin-right: 20px; 
+    margin-left: 20px; 
+}
+
+/* Section Header */
+.horizontal-divider {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .divider-title {
+    padding: 100px;
+    font-family: "poppins", sans-serif;
+    font-size: 48px;
+    font-style: bold;
+    color: #4d4d4d;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  
+  .divider-line {
+    display: flex;
+    flex: 1;
+    border-bottom: 2px solid #4d4d4d;
+    margin-top: 6px;
+  }
+
+  .divider-line-footer {
+    display: flex;
+    flex: 1;
+    border-bottom: 2px solid #4d4d4d;
+    margin-bottom: 20px;
+  }
+
+
+
+
+  /****HEROSPACE****/
+.herospace {
+    padding-top: 100px;
+    width: 100%;
+    background-color: #D0E8C1;
+    height: 100vh;
+    width: 100%;
+    background-color: #D0E8C1; 
+    padding: 50px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.containerHero {
+    margin-left: 20%!important; 
+    margin-right: 20%!important; 
+    display: flex;
+    align-items: center; 
+}
+
+.biocontent {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.splashImg {
+    width: 100%;
+    max-width: 100%;
+}
+
+.p {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px!important;
+}
+
+/*****ICON*****/
+.icon {
+    max-width: 20%;
+}
+
+
+
+
+/******TYPOGRAPHY******/
+
+h1 {
+    font-family: 'poppins',sans-serif;
+    font-size: 64px!important; 
+}
+
+p { 
+    font-family: 'poppins',sans-serif;
+    font-size: 24px!important; 
+}
+
+h2 {
+    font-family: 'poppins',sans-serif;
+    font-size: 24px!important;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: "poppins", sans-serif;
+    font-size: 24px!important;
+    font-weight: bold!important;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+/******BUTTONS******/
+.outlined-button {
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #528A2F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px!important;
+}
+
+.underlined-button {
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px!important;
+}
+
+.buttonPrimary {
+    padding: 10px!important;
+    border-radius: 40px!important;
+    width: 167px!important;
+    background-color: #528A2F;
+    color: white;
+    border: none;
+}
+
+/*******ABOUT**********/
+.about-section {
+    display: flex;
+    align-items: center; /* Vertically align content */
+}
+
+.image-container {
+    text-align: center; /* Center the image horizontally */
+}
+
+.aboutcontent {
+    padding-left: 30px; /* Add some space between the image and text */
+    font-size: 24px!important;
+}
+
+
+
+
+
+
+
+/**********FEATURE********/
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    height: 650px;
+    flex: 1; /* Allow the card body to expand to fill the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPrimary {
+    margin-bottom: 25px;
+}
+
+.image-slot img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.card-body,
+.card-text {
+    font-size: 18px!important;
+}
+
+.content-container p2 {
+    margin-bottom: 10px!important;
+}
+
+.card-text {
+    padding-bottom: 10px!important;
+}
+
+@media (max-width: 1350px) {
+    .containerFeature .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerFeature .col-md-4 {
+        width: auto;
+        margin: 10px; 
+    }
+}
+
+
+
+
+/*****SUPPORT*****/
+
+.card-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* Set max-height for icon images */
+.icon-container img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.card-title2 {
+    font-size: 18px!important;
+}
+
+.card-text2 {
+    font-size: 16px!important;
+}
+
+.card-title2,
+.card-text2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-feature {
+    height: 100%;
+}
+
+.icon-container img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.button-container2 {
+    margin-top: auto;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.icon-containerView {
+    padding-bottom: 0px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****FOOTER******/
+footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+    font-style: normal;
+    color: #4d4d4d !important;
+    margin: 90px;
+    background-color: white!important;
+  }
+  
+  .footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  @media (max-width: 1000px) {
+    .navbar-nav {
+      flex-direction: row !important; /* Ensure navigation items stay in a row */
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 10px; /* Adjust margin between navigation items */
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 14px; /* Set smaller font size for navigation links */
+    }
+  }
